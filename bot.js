@@ -147,6 +147,7 @@ client.on ('message', message => {
 	  NOTIFY_CHANNEL.sendMessage("```CHAR IS MY DADDY```")
 	  NOTIFY_CHANNEL.sendMessage("```CHAR IS MY DADDY```")
 	  NOTIFY_CHANNEL.sendMessage("```CHAR IS MY DADDY```")
+	  NOTIFY_CHANNEL = client.channels.find("name", "pvp-zone-wall-check"); // Channel to send notification
   }
 })
 //LOGIN TOKEN-------------------------------------------------------------------
