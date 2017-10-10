@@ -33,8 +33,8 @@ client.on('ready', () => {
     int1 = setInterval(function cannuner(){
     if(test == 1 && (key != 0)){
 
-        NOTIFY_CHANNEL.sendMessage('@here ```nobody has checked walls in 30 minutes```', {tts: true});
-        NOTIFY_CHANNEL.sendMessage('@here ```nobody has checked walls in 30 minutes```', {tts: true});
+        NOTIFY_CHANNEL.sendMessage('hey! ```nobody has checked walls in 30 minutes```', {tts: true});
+        NOTIFY_CHANNEL.sendMessage('hey! ```nobody has checked walls in 30 minutes```', {tts: true});
 
     }
     else{
